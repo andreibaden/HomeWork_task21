@@ -4,16 +4,17 @@
 # Author: Nedaboi Andrei_QA2023
 # Date: 10.05.2023
 
-from comp import Comp
-from count import *
+from comp_v1 import *
+from count_v1 import *
 
 
 def main():
-    computer1 = Comp("Lenovo", "Dragon", 2300)
-    computer2 = Comp("LG", "Ligi-88", -1800)
-    computer3 = Comp("Lampa", "Running", 2800)
+    computer1 = Comp("Lenovo", "Dragon", 200)
+    computer2 = Comp("LG", "Ligi-88", 300)
+    computer3 = Comp("Lada", "Fast", 100)
+    computer4 = Comp("Tiger", "RIKI", 400)
 
-    computers = ((computer1), (computer2), (computer3))
+    computers = ((computer1), (computer2), (computer3), (computer4))
 
     total = Count.total_cost(computers)
     expensive_comp = Count.find_expensive(computers)
