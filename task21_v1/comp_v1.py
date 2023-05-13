@@ -9,7 +9,7 @@ class Comp:
             f"price = {self.price} rub."
 
 if __name__ == "__main__":
-    laptop1 = Comp()
+    laptop1 = Comp("GE", "88", 110)
     print(laptop1)
 
     laptop2 = Comp("LG", "9119", 2000)
