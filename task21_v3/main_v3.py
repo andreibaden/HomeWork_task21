@@ -4,12 +4,12 @@
 # Author: Nedaboi Andrei_QA2023
 # Date: 10.05.2023
 
-from task21_v2.count_v2 import *
+from task21_v3.count_v3 import *
 
 
 def main():
     computer1 = Comp("Lenovo", "Dragon", 200)
-    computer2 = Comp("LG", "Ligi-88", 300)
+    computer2 = Comp("LG", "Lig-88", 300)
     computer3 = Comp("Lampa", "Running", -100)
     computer4 = Comp("Lampa", "Running", 400)
 

@@ -14,7 +14,7 @@ def main():
     computer3 = Comp("Lada", "Fast", 100)
     computer4 = Comp("Tiger", "RIKI", 400)
 
-    computers = ((computer1), (computer2), (computer3), (computer4))
+    computers = (computer1, computer2, computer3, computer4)
 
     total = Count.total_cost(computers)
     expensive_comp = Count.find_expensive(computers)
